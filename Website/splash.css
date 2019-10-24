@@ -1,0 +1,141 @@
+html {
+    
+    font-family:"Exocet Reaper","Palatino Linotype",Times,serif;
+}
+
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+    
+
+body {
+    background-color: rgb(33, 34, 34);
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+    color: #f3aa55; 
+        
+}
+
+.header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 99%;
+    box-shadow: none;
+    position: fixed;
+    height: 54px!important;
+    overflow: hidden;
+    z-index: 10;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    
+    
+}
+.header h1 {
+    padding-left: 40%;
+    position: absolute;
+    height: 20px;
+    text-align: center;
+}
+.header .headerRight {
+    background: url("../images/header/header-sprite.png") no-repeat 0 -162px; 
+    height: 54px; 
+    position: absolute; 
+    right: -3; 
+    top: 0; 
+    width: 51px; 
+    z-index: 1; 
+}
+.header .headerLeft {
+    background: url("../images/header/header-sprite.png") no-repeat 0 -108px; 
+    height: 54px;
+    left: -5; 
+    position: absolute; 
+    top: 0; 
+    width: 51px; 
+    z-index: 1; 
+}
+.header .headerMid { 
+
+    background: url("../images/header/header-sprite.png") repeat-x 0 0; 
+    color: #f3aa55; 
+    display: block; 
+    font-family: "Exocet Blizzard Light", "Palatino Linotype", "Times", serif; 
+    padding: 15 42px; 
+    position: relative; 
+    text-shadow:-1px 2px 0 #000;
+    text-transform: uppercase; 
+    text-align: center;
+    transition: color 0.2s; 
+    height: 54px;
+}
+.header .headerMid::after {
+
+    background: url("../images/header/header-sprite.png") repeat-x 0 -54px;
+    content: "";
+    height: 54px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity 0.2s;
+    
+}
+
+.main {
+    margin: 0 auto;
+    display: inline-block;
+    max-width: 1600px;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.mainInner{
+    display: table;
+    
+    text-align: center;
+}
+.mainInner div{
+    display:table-cell;
+    vertical-align: left;
+    
+    
+}
+
+#divInner {
+    background-color: rgb(74, 64, 56);
+    display: inline-block;
+    border: brown solid 2px;
+}
+#body-bot {
+    
+    background: url("../images/body/body-bot/body-bot.jpg") no-repeat 0 100%;
+    min-height: 500px;
+    padding-bottom: 100;
+    position: relative;
+    
+    
+}
+#button {
+    background-color: none;
+    
+}
+
+
+
+
+.enter {
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    margin-top: 200px;
+    font-family: "Exocet Reaper","Palatino Linotype",Times,serif;
+    color: red;
+    text-decoration:none;
+}
+

@@ -1,0 +1,38 @@
+
+.sidebar-button .sidebar-button {
+    display:block;
+    text-align:center
+}
+
+.sidebar-button .Button-link {
+    
+    width:240px;
+    padding-top:4px;
+    color:#000;
+    display:inline-block;
+    font-family:"Exocet Reaper","Palatino Linotype",Times,serif;
+    font-size:18px;
+    line-height:56px;
+    position:relative;
+    top:0;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    background-color:transparent;
+    background-position:50% 0;
+    transition:filter .25s,transform .25s;
+    text-align: center;
+    
+}
+
+.sidebar-button .Button-link:hover {
+    background-position:50% -78px!important
+}
+
+.sidebar-button .Button-link {
+    color:#f9e2b3;
+    text-shadow:-1px 1px 0 #000;
+    background-image:url("../images/sidebar/button-red-sidebar.png");
+    background-repeat:no-repeat;
+    text-decoration: none;
+}
+
